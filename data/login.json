@@ -1,0 +1,14 @@
+{
+    "registered": [
+        {
+            "login": "police",
+            "password": "$2y$10$v\/RtdnwkE5eH3\/K5qiq5Vu71agRx4dRxzFyXjPqkIMylwrZw4KnGS",
+            "profile": "police"
+        },
+        {
+            "login": "admin",
+            "password": "$2y$10$OVl5I.Pp2Yn83p0akZ3SzeGWuq8nELIXRX2roDnAbEz6JUlz1iLq2",
+            "profile": "admin"
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+body{
+  background-size: cover;
+  height: 120vh;
+  background-color: black; /* Le fond de la page sera noir */
+  color: white; /* Le texte de la page sera blanc */
+}
+.nav-link{
+  font-size: 20px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.dropdown-menu{
+  animation-name: atthover;
+  animation-duration: 1s;
+  animation-iteration-count: finite;
+}
+
+.dropdown:hover{
+  animation-play-state: running;
+}
+.dropdown:hover> .dropdown-menu{
+  display: block;
+}
+
+.dropdown-item:hover{
+  background-color: #ccc;
+}
+
+@keyframes atthover{
+  0%{
+    opacity: 0;
+    margin-top: 30px;
+  }
+  50%{
+    opacity: 1;
+    margin-top: 0px;
+  }
+  100%{
+    opacity: 100%;
+  }
+
+}
+
+.navbar-dark.scrolled{
+  background: #4a4847;
+  transition: .5s ease-in-out;
+}
+.connect {
+  position: fixed;
+  top: 40px;
+  right: 40px;
+  padding: 7px 12px;
+  color: #fff;
+  background-color: #f25462;
+  text-decoration: none;
+  border-radius: 20px;
+}.blanc{
+  color: hsl(0deg, 100%, 100%);
+}
